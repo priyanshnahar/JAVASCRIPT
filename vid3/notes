@@ -1,0 +1,8 @@
+//  There is no use of var keyword because of this there can be chances of bug to your code 
+// var is used in pre ES6 codes 
+
+// Const are used to declare constants
+
+// let is used to declare blocked scope variables
+
+
