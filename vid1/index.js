@@ -8,4 +8,4 @@ function addThreeNumbers(a, b, c) {
 
 let c = addThreeNumbers(10, 20, 10)
 
-console.log(c);
+console.log(c); 

@@ -1,0 +1,16 @@
+There are 7 types of Data Types  in javascript 
+
+what are premetive data types;
+N  = Null 
+N = Number
+S = symbol
+S = string 
+B = Boolean 
+B = Bignt 
+U = undefined
+
+data type means kis variable ke ander kis tarha ka data store kiya jaa sakta 
+
+
+Object is our non-premetive data type
+
