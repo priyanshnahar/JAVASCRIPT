@@ -1,0 +1,7 @@
+Conditional expresssions :- sometimes we might want to execute the block of code based off some conitions.
+
+In js we have 3 -4 forms of if else conditions 
+
+1. if 
+2. if else 
+3. else if 
