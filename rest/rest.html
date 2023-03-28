@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script>
-        function sum(name, ...args){
-            console.log(arguments);
+      function sum(name, ...args) {
+        console.log(arguments);
 
-            let sum = 0;
-            for(let i in args){
-                sum += args[i]
-            }
-            document.write(sum + "<br>")
+        document.write(`Hello ${name} : `);
+        let sum = 0;
+        for (let i in args) {
+          sum += args[i];
         }
+        document.write(sum + "<br>");
+      }
 
-        sum("Yahoo Baba", 20, 30, 40);
-        
+      sum("Yahoo Baba", 20, 30, 40);
+      sum("Ram Kumar", 55, 44);
     </script>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body></body>
 </html>

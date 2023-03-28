@@ -6,12 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
-       var arr1 = [10, 20, 30, 40, 50]
-       var arr2 = [...arr1];
-       arr1.push(50);
+       var obj1 = {
+        name: "Yahoo Babab",
+        course : "Btech"
+       };
 
-       console.log(arr1);
-       console.log(arr2);
+       var obj2 = {
+        age: "25"
+       };
+
+       var obj3 = {
+        ...obj1, ...obj2
+       }
+       console.log(obj3);
+    
+    //    arr1.push(50);
+
+    //    console.log(arr1);
+    //    console.log(arr2);
     </script>
 </head>
 <body>
