@@ -19,7 +19,10 @@
 
         var obj = {
             [n  + "name"] : "Yahoo Baba",
-            course : "B tech"
+            course : "B tech",
+            detail:  function(){
+                return `${this.studentname} is student of ${this.course}`
+            }
         };
 
         console.log(obj);
